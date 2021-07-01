@@ -1,0 +1,58 @@
+{
+    "liveServer.settings.donotShowInfoMsg": true,
+    "explorer.confirmDelete": false,
+    "explorer.confirmDragAndDrop": false,
+    "workbench.settings.editor": "json",
+    "workbench.settings.openDefaultSettings": true,
+    "workbench.startupEditor": "newUntitledFile",
+    "workbench.editorAssociations": [
+        {
+            "viewType": "jupyter.notebook.ipynb",
+            "filenamePattern": "*.ipynb"
+        }
+    ],
+    "terminal.integrated.fontSize": 15,
+    "python.formatting.provider": "autopep8",
+    "python.showStartPage": false,
+    "python.languageServer": "Pylance",
+    "python.linting.pylintArgs": [
+        "--load-plugins=pylint_django"
+    ],
+    "code-runner.clearPreviousOutput": true,
+    "code-runner.showExecutionMessage": false,
+    "code-runner.executorMap": {
+        "python": "$pythonPath -u $fullFileName",
+    },
+    "editor.formatOnSave": true,
+    "editor.fontSize": 15,
+    "git.enableSmartCommit": true,
+    "liveServer.settings.donotVerifyTags": true,
+    "C_Cpp.updateChannel": "Insiders",
+    "editor.suggestSelection": "first",
+    "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
+    "redhat.telemetry.enabled": true,
+    "files.exclude": {
+        "**/.classpath": true,
+        "**/.project": true,
+        "**/.settings": true,
+        "**/.factorypath": true
+    },
+    "java.project.importOnFirstTimeStartup": "automatic",
+    "terminal.integrated.tabs.enabled": true,
+    "sonarlint.rules": {
+        "javascript:S108": {
+            "level": "off"
+        },
+        "Web:S5255": {
+            "level": "off"
+        },
+        "python:S125": {
+            "level": "off"
+        }
+    },
+    "window.zoomLevel": -1,
+    "workbench.tree.indent": 18,
+    "workbench.tree.renderIndentGuides": "always",
+    "workbench.editor.untitled.hint": "hidden",
+    "editor.largeFileOptimizations": false,
+}
